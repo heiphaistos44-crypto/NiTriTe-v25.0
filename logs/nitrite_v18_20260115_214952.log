@@ -1,0 +1,6 @@
+[2026-01-15 21:49:52] [INFO    ] [System         ] === NiTriTe V18 - Nouvelle session démarrée ===
+[2026-01-15 21:49:53] [WARNING ] [AI_Agent       ] google-generativeai non disponible - pip install google-generativeai
+[2026-01-15 21:49:53] [WARNING ] [AI_Agent       ] google-generativeai non disponible - pip install google-generativeai
+[2026-01-15 21:49:55] [DEBUG   ] [Installer      ] WinGet disponible: True
+[2026-01-15 21:49:56] [DEBUG   ] [Installer      ] Chocolatey disponible: True
+[2026-01-15 21:49:56] [INFO    ] [Installer      ] Initialisé | {"winget": true, "chocolatey": true}

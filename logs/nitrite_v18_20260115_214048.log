@@ -1,0 +1,36 @@
+[2026-01-15 21:40:48] [INFO    ] [System         ] === NiTriTe V18 - Nouvelle session démarrée ===
+[2026-01-15 21:40:50] [WARNING ] [AI_Agent       ] google-generativeai non disponible - pip install google-generativeai
+[2026-01-15 21:44:02] [INFO    ] [PageLogs       ] Initialisation de la page Logs
+[2026-01-15 21:44:02] [INFO    ] [PageLogs       ] Header créé
+[2026-01-15 21:44:02] [INFO    ] [PageLogs       ] Tabs créés
+[2026-01-15 21:44:02] [DEBUG   ] [PageLogs       ] Nombre de widgets enfants: 2
+[2026-01-15 21:44:02] [DEBUG   ] [PageLogs       ] Scroll frame créé, onglet actuel: app
+[2026-01-15 21:44:02] [INFO    ] [PageLogs       ] Affichage des logs application
+[2026-01-15 21:44:02] [INFO    ] [PageLogs       ] Création de la vue logs application
+[2026-01-15 21:44:02] [DEBUG   ] [PageLogs       ] Création Text widget pour logs app | {"bg": "#1e1e1e", "fg": "#00ff00"}
+[2026-01-15 21:44:02] [DEBUG   ] [PageLogs       ] Text widget logs app créé | {"actual_bg": "#000000", "actual_fg": "#00FF00", "actual_font": "Consolas 10"}
+[2026-01-15 21:44:02] [DEBUG   ] [PageLogs       ] Chargement des logs app
+[2026-01-15 21:44:02] [DEBUG   ] [PageLogs       ] Récupération des logs via logger.get_recent_logs()
+[2026-01-15 21:44:02] [DEBUG   ] [PageLogs       ] Logs récupérés: 13 lignes
+[2026-01-15 21:44:02] [DEBUG   ] [PageLogs       ] Text widget configuré en mode NORMAL et vidé
+[2026-01-15 21:44:02] [DEBUG   ] [PageLogs       ] Insertion de 13 lignes de logs
+[2026-01-15 21:44:02] [DEBUG   ] [PageLogs       ] Ligne 0: [2026-01-15 21:40:48] [INFO    ] [System         ] === NiTriTe V18 - Nouvelle session démarrée ===
+
+[2026-01-15 21:44:02] [DEBUG   ] [PageLogs       ] Ligne 1: [2026-01-15 21:40:50] [WARNING ] [AI_Agent       ] google-generativeai non disponible - pip install 
+[2026-01-15 21:44:02] [DEBUG   ] [PageLogs       ] Ligne 2: [2026-01-15 21:44:02] [INFO    ] [PageLogs       ] Initialisation de la page Logs
+
+[2026-01-15 21:44:02] [DEBUG   ] [PageLogs       ] Text widget configuré en mode DISABLED
+[2026-01-15 21:44:02] [DEBUG   ] [PageLogs       ] Scroll automatique effectué
+[2026-01-15 21:44:02] [DEBUG   ] [PageLogs       ] Logs app chargés
+[2026-01-15 21:44:02] [INFO    ] [PageLogs       ] Contenu créé avec succès
+[2026-01-15 21:44:02] [INFO    ] [PageLogs       ] Contenu créé - Page Logs chargée avec succès
+[2026-01-15 21:44:04] [INFO    ] [PageScriptsWindows] Initialisation de la page Scripts Windows
+[2026-01-15 21:44:04] [INFO    ] [PageScriptsWindows] Dossier scripts: C:\Users\Momo\Desktop\Nitrite-25.0\Script Windows
+[2026-01-15 21:44:04] [DEBUG   ] [PageScriptsWindows] Création du header
+[2026-01-15 21:44:04] [DEBUG   ] [PageScriptsWindows] Header créé
+[2026-01-15 21:44:04] [DEBUG   ] [PageScriptsWindows] Création des stats
+[2026-01-15 21:44:04] [DEBUG   ] [PageScriptsWindows] Stats créées
+[2026-01-15 21:44:04] [DEBUG   ] [PageScriptsWindows] Création du contenu
+[2026-01-15 21:44:04] [DEBUG   ] [PageScriptsWindows] Contenu créé
+[2026-01-15 21:44:04] [DEBUG   ] [PageScriptsWindows] Rafraîchissement des scripts
+[2026-01-15 21:44:06] [INFO    ] [PageScriptsWindows] Page Scripts Windows chargée avec succès
