@@ -7,7 +7,15 @@ Script[[:space:]]Windows/**/*.zip filter=lfs diff=lfs merge=lfs -text
 **/SpybotPortable*.paf.exe filter=lfs diff=lfs merge=lfs -text
 **/UserDiag.exe filter=lfs diff=lfs merge=lfs -text
 **/*.safetensors filter=lfs diff=lfs merge=lfs -text
-dist/**/*.exe filter=lfs diff=lfs merge=lfs -text
 dist/**/*.zip filter=lfs diff=lfs merge=lfs -text
-release/**/*.exe filter=lfs diff=lfs merge=lfs -text
 release/**/*.zip filter=lfs diff=lfs merge=lfs -text
+# Exclure les gros .exe dans dist et release SAUF l'exe principal
+dist/**/logiciel/**/*.exe filter=lfs diff=lfs merge=lfs -text
+dist/**/Drivers/**/*.exe filter=lfs diff=lfs merge=lfs -text
+dist/**/Script[[:space:]]Windows/**/*.exe filter=lfs diff=lfs merge=lfs -text
+release/**/logiciel/**/*.exe filter=lfs diff=lfs merge=lfs -text
+release/**/Drivers/**/*.exe filter=lfs diff=lfs merge=lfs -text
+release/**/Script[[:space:]]Windows/**/*.exe filter=lfs diff=lfs merge=lfs -text
+# L'exe principal NE DOIT PAS être en LFS (pour téléchargement direct)
+dist/NiTriTe_V25_Portable/NiTriTe_V25_Portable.exe !filter !diff !merge text=auto
+release/NiTriTe_V25_Portable/NiTriTe_V25_Portable.exe !filter !diff !merge text=auto
